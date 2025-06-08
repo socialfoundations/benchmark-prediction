@@ -1,4 +1,4 @@
-# How Benchmark Prediction with Fewer Data Misses the Mark
+# Benchmark Prediction with Fewer Data
 
 **BenchPred** is a Python package that provides a suite of tools to predict benchmark performances with fewer data. It provides all methods that we examined in our [paper](https://arxiv.org/).
 
