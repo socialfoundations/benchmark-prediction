@@ -1,0 +1,17 @@
+py-irt==0.4.10
+torch
+kmedoids
+datasets
+pyro-ppl
+pyyaml
+matplotlib
+tqdm
+pandas
+numpy==1.26.4
+joblib
+gitpython
+ipython
+wandb
+scikit-learn
+ordered_set
+rich
