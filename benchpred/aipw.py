@@ -54,8 +54,8 @@ class AIPWPred(BenchPred):
 
             n = len(self.compressed_data_indices)
             N = len(rest_indices)
-            ppi_part = (y_train - y_pred_train).mean() / (1 + n / N)
-            ppi_part += y_pred_test.mean()
+            ppi_part = y_train.mean()
+            ppi_part += (y_pred_test.mean() - y_pred_train.mean()) / (1 + n / N)
             ret.append(ppi_part)
 
         return np.array(ret)
